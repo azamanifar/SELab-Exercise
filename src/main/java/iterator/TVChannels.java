@@ -8,7 +8,8 @@ import java.util.LinkedList;
 
 public class TVChannels extends LinkedList<String> {
 
-    public TVChannels() {
+    public int i;
+	public TVChannels() {
     }
 
     @Override
