@@ -23,4 +23,7 @@ public class TVChannels extends LinkedList<String> {
     public Iterator<String> iteratorIfFavorites(String[] favorites) {
         return new OnlyFavoritesIterator(this, favorites);
     }
+	public void newmwthod()
+	{
+	}
 }
